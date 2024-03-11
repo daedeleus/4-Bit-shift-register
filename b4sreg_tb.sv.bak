@@ -1,0 +1,31 @@
+module b4sreg_tb;
+
+reg D, clk = 0, rst = 0, en = 0;
+wire Q_out;
+
+b4sreg u1(D, clk, rst, en, Q_out);
+
+initial begin
+/*
+    // Dump variables for editing
+    $dumpfile("dump.vcd");
+    $dumpvars();
+    
+    $display("\t\t\t\ttime\tclk\tD\tQ");
+    $monitor("%d\t%b\t%b\t%d",$time,clk,D,Q_out);
+*/
+   
+    // Provide some input bits
+		rst = 1; en = 0; D = 4'b1010;
+		#12 rst = 0; en = 1; D = 4'b1010;
+		#12 rst = 0; en = 0; D = 4'b1010;// t=11
+    
+  end
+  
+  always
+    #5 clk = ~clk;   // 100 Mhz clock
+    
+  initial
+    #200 $finish;     // Run for 200 ns
+  
+endmodule

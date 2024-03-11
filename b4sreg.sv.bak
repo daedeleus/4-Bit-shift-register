@@ -1,0 +1,16 @@
+module b4sreg(input logic D_in[3:0], clk, rst, output reg Q_out[3:0]);
+
+
+always @(posedge clk or posedge rst)
+begin
+	if(rst)
+		Q_out <= 4'b0000;
+	
+	else	
+		Q_out[0] <= Q_out[1];
+		Q_out[1] <= Q_out[2];
+		Q_out[2] <= Q_out[3];
+		Q_out[3] <= 0;
+end
+
+endmodule
