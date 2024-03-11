@@ -1,0 +1,53 @@
+# Reading pref.tcl
+# do b4sreg_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Users/csc/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/csc/Desktop/College/CADD/Mini2 {C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:05:12 on Nov 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/csc/Desktop/College/CADD/Mini2" C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg.sv 
+# -- Compiling module b4sreg
+# 
+# Top level modules:
+# 	b4sreg
+# End time: 13:05:12 on Nov 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/csc/Desktop/College/CADD/Mini2 {C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:05:13 on Nov 23,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/csc/Desktop/College/CADD/Mini2" C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv 
+# -- Compiling module b4sreg_tb
+# 
+# Top level modules:
+# 	b4sreg_tb
+# End time: 13:05:13 on Nov 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  b4sreg_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" b4sreg_tb 
+# Start time: 13:05:13 on Nov 23,2023
+# Loading sv_std.std
+# Loading work.b4sreg_tb
+# Loading work.b4sreg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv(24)
+#    Time: 200 ps  Iteration: 0  Instance: /b4sreg_tb
+# 1
+# Break in Module b4sreg_tb at C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv line 24
+# End time: 13:17:03 on Nov 23,2023, Elapsed time: 0:11:50
+# Errors: 0, Warnings: 0

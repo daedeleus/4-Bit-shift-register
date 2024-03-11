@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/csc/Desktop/College/CADD/Mini2/simulation/modelsim
+vb4sreg
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1700558000
+!i10b 1
+!s100 @ebW7TP[]Z>d_7=J11heZ0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IizaNnH;n^fgiDdN>dcb:e0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1700506659
+Z6 8b4sreg.svo
+Z7 Fb4sreg.svo
+!i122 0
+L0 32 484
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1700558000.000000
+!s107 b4sreg.svo|
+Z10 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|b4sreg.svo|
+!i113 1
+Z11 o-sv -work work
+Z12 !s92 -sv -work work +incdir+.
+Z13 tCvgOpt 0
+vhard_block
+R1
+R2
+!i10b 1
+!s100 ]mnDM91zDVAa9gzC>52K_1
+R3
+IUkFz0`]1];7Y<^471PWz]2
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 517 45
+R8
+r1
+!s85 0
+31
+R9
+Z14 !s107 b4sreg.svo|
+R10
+!i113 1
+R11
+R12
+R13
