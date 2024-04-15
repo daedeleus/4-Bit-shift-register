@@ -17,7 +17,7 @@ initial begin
      #200 $finish;
   end
   
-  always
+always
     #5 clk = ~clk;   // 100 Mhz clock
     
   

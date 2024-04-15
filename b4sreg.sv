@@ -3,12 +3,17 @@ input logic clk, rst, en;
 input logic unsigned [3:0]D_in;
 output reg unsigned [3:0]Q_out;
 
+// clock divider for hardware implementation.
+/*  
 logic [25:0] sclk;
-  
+
 always @(posedge clk)
 		sclk = sclk + 1'b1;
 		
-always@(posedge sclk[25] , posedge rst)
+always@(posedge sclk[24] , posedge rst)
+*/
+	
+always@(posedge clk , posedge rst)
 begin
 	
 	if(rst === 1)

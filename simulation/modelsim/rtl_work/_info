@@ -8,55 +8,55 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/csc/Desktop/College/CADD/Mini2/simulation/modelsim
+Z0 dC:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/simulation/modelsim
 vb4sreg
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1700724912
+!s110 1713200064
 !i10b 1
-!s100 iH5Je_UD1MZz[Yj<UBHR72
+!s100 6`>7@hT`dGFVQM2g?3Y4J0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IFR7;KRF4^J>:QbL:CKH5I2
+Izl=:6QLb^JoLgJiIL^iCl2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1700724638
-8C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg.sv
-FC:/Users/csc/Desktop/College/CADD/Mini2/b4sreg.sv
+w1713199298
+8C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg.sv
+FC:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg.sv
 !i122 0
-L0 1 32
+L0 1 37
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1700724912.000000
-!s107 C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/csc/Desktop/College/CADD/Mini2|C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg.sv|
+!s108 1713200064.000000
+!s107 C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register|C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg.sv|
 !i113 1
 Z5 o-sv -work work
-Z6 !s92 -sv -work work +incdir+C:/Users/csc/Desktop/College/CADD/Mini2
+Z6 !s92 -sv -work work +incdir+C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register
 Z7 tCvgOpt 0
 vb4sreg_tb
 R1
-!s110 1700724913
+!s110 1713200065
 !i10b 1
-!s100 ;9`UMQ3DYH^?Zf=Va>Ig^0
+!s100 zA8<C8lj2YN8Jc@NG_S591
 R2
-IZHBAFVOYKkzcWYP9ZGT;n2
+I3ngClaz91b5zG@:dDfJ>;3
 R3
 S1
 R0
-w1700724481
-8C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv
-FC:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv
+w1713199932
+8C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg_tb.sv
+FC:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg_tb.sv
 !i122 1
 L0 1 26
 R4
 r1
 !s85 0
 31
-!s108 1700724913.000000
-!s107 C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/csc/Desktop/College/CADD/Mini2|C:/Users/csc/Desktop/College/CADD/Mini2/b4sreg_tb.sv|
+!s108 1713200065.000000
+!s107 C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register|C:/Users/csc/Desktop/College/CADD/4-Bit-shift-register/b4sreg_tb.sv|
 !i113 1
 R5
 R6

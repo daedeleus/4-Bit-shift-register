@@ -1,5 +1,5 @@
 Flow report for b4sreg
-Fri Nov 24 17:01:38 2023
+Mon Apr 15 22:24:07 2024
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,17 +41,17 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 24 17:01:38 2023       ;
+; Flow Status                        ; Successful - Mon Apr 15 22:24:07 2024       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; b4sreg                                      ;
 ; Top-level Entity Name              ; b4sreg                                      ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 31 / 49,760 ( < 1 % )                       ;
-;     Total combinational functions  ; 31 / 49,760 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 30 / 49,760 ( < 1 % )                       ;
-; Total registers                    ; 30                                          ;
+; Total logic elements               ; 5 / 49,760 ( < 1 % )                        ;
+;     Total combinational functions  ; 5 / 49,760 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 4 / 49,760 ( < 1 % )                        ;
+; Total registers                    ; 4                                           ;
 ; Total pins                         ; 11 / 360 ( 3 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/24/2023 17:00:54 ;
+; Start date & time ; 04/15/2024 22:23:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; b4sreg              ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 2499180125443.170082545420548          ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 91756924080.171320001501316            ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; u1                                     ; --            ; --          ; b4sreg_tb                         ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -108,12 +108,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4805 MB             ; 00:00:15                           ;
-; Fitter               ; 00:00:16     ; 1.0                     ; 5917 MB             ; 00:00:11                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4695 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4877 MB             ; 00:00:02                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4811 MB             ; 00:00:13                           ;
+; Fitter               ; 00:00:10     ; 1.0                     ; 5917 MB             ; 00:00:08                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4693 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4872 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4646 MB             ; 00:00:00                           ;
-; Total                ; 00:00:40     ; --                      ; --                  ; 00:00:31                           ;
+; Total                ; 00:00:27     ; --                      ; --                  ; 00:00:25                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
