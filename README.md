@@ -7,5 +7,8 @@ RTL Viewer :-
 Testbench waveform :-  
 ![image](https://github.com/daedeleus/4-Bit-shift-register/blob/main/Waveform.png)  
 Synthesis summary :-  
-![image](https://github.com/daedeleus/4-Bit-shift-register/blob/main/Synthesis%20Summary.png)    
+![image](https://github.com/daedeleus/4-Bit-shift-register/blob/main/Synthesis%20Summary.png)  
 
+---
+See FPGA demonstration at  
+![video](https://github.com/daedeleus/4-Bit-shift-register/blob/main/4brsreg.mp4)  
