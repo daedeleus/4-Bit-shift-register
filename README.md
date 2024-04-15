@@ -7,5 +7,5 @@ RTL Viewer :-
 Testbench waveform :-  
 ![image](https://github.com/daedeleus/4-Bit-shift-register/blob/main/Waveform.png)  
 Synthesis summary :-  
-![image](https://github.com/daedeleus/4-Bit-shift-register/assets/124076157/58c623bb-9541-47c9-aa9e-a2b78ad93dfa)  
+![image](https://github.com/daedeleus/4-Bit-shift-register/blob/main/Synthesis%20Summary.png)    
 
